@@ -1,0 +1,12 @@
+.line2{
+	display: flex;
+	width: 100%;
+	height:8rem;
+	background-color: gray;
+
+}
+
+.lab,.accounts,.path,.star,.office{
+	margin-top: 8rem;
+}
+

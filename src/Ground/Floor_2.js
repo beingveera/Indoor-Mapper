@@ -21,7 +21,6 @@ export default function Floor_2(){
 
 				<div className="accounts">
 					<Accounts />
-					
 				</div>
 
 				<div className="path">

@@ -14,7 +14,7 @@ function Space(){
 const span = {
 	"height":"100px",
 	"width":"50px",
-	"background-color":"lightgray",
+	"backgroundColor":"lightgray",
 	"border":"2px solid #000042"
 }
 

@@ -1,9 +1,11 @@
 import react from 'react';
+import '../Components/Action.js';
+import '../Components/Reaction.js';
 
 export default function Accounts(){
 	return(
 		<>
-			<div className="room" data-bs-toggle="tooltip" data-bs-placement="top" title="Accounts Section :- The all fee or finalcial issues are solving at here.">
+			<div id="acc" style={css} data-bs-toggle="tooltip" data-bs-placement="top" title="Accounts Section :- The all fee or finalcial issues are solving at here.">
 				Account
 			</div>
 
@@ -13,17 +15,19 @@ export default function Accounts(){
 
 
 const css = {
-	"background-color":"lightgray",
+	"backgroundColor":"lightgray",
 	"color":"black",
 	"height":"6rem",
-	"width":"10.8rem",
+	"width":"8.9rem",
 	"border":"2px solid #000042",
 	"flex": '1',
-	"justify-content" : "center",
-	"text-align":"center",
+	"justifyContent" : "center",
+	"textAlign":"center",
 	"display":"flex",
-	"vertical-align":"middle",
-	"line-height":"90px",
-	"font-size":"10px",
-	"font-weight":"800",
+	"verticalAlign":"middle",
+	"lineHeight":"90px",
+	"fontSize":"10px",
+	"fontWeight":"800",
+	"Postion":"absolute",
+	"right":"100px",
 	}

@@ -12,23 +12,23 @@ function Empty(){
 const space = {
 	"height":"100px",
 	"width":"140px",
-	"background-color":"white",
-	"border-top":"2px solid #000042"
+	"backgroundColor":"white",
+	"borderTop":"2px solid #000042"
 }
 
 
 const space1 = {
 	"height":"100px",
 	"width":"70px",
-	"background-color":"white",
-	"border-top":"2px solid #000042"
+	"backgroundColor":"white",
+	"borderTop":"2px solid #000042"
 }
 
 const space2 = {
 	"height":"100px",
 	"width":"25px",
-	"background-color":"white",
-	"border-top":"2px solid #000042"
+	"backgroundColor":"white",
+	"borderTop":"2px solid #000042"
 }
 
 function Empty2(){

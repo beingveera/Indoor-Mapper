@@ -13,6 +13,6 @@ export default function PathV(){
 const style1={
 	"height":"6rem",
 	"width":"2rem",
-	"background-color":"gray",
+	"backgroundColor":"gray",
 	"border":"1px solid gray"
 }

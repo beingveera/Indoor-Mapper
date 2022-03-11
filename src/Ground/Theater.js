@@ -3,7 +3,7 @@ import react from 'react';
 export default function Theater(){
 	return(
 		<>
-			<div className="room" style={css} data-bs-toggle="tooltip" data-bs-placement="top" title="MP Theater :- The Center of the Block ,which is used for small Events.">
+			<div id="Mp" className="room" style={css} data-bs-toggle="tooltip" data-bs-placement="top" title="MP Theater :- The Center of the Block ,which is used for small Events.">
 			MP_Theater
 			<span style={left}></span>
 			<span style={right}></span>
@@ -26,18 +26,18 @@ const bottom={}
 
 
 const css = {
-	"background-color":"lightgray",
+	"backgroundColor":"lightgray",
 	"color":"black",
 	"height":"14rem",
 	"width":"14rem",
 	"border":"2px solid #000042",
 	"flex": '1',
-	"justify-content" : "center",
-	"text-align":"center",
+	"justifyContent" : "center",
+	"textAlign":"center",
 	"display":"flex",
-	"vertical-align":"middle",
-	"line-height":"140px",
-	"font-size":"10px",
-	"font-weight":"800",
+	"verticalAlign":"middle",
+	"lineHeight":"140px",
+	"fontSize":"10px",
+	"fontWeight":"800",
 	"border":"1rem dashed #000042",
 	}

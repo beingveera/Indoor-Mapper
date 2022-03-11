@@ -1,20 +1,51 @@
 const location = [
-"Accounts",
-"College Office",
-"Director Room",
-"Faculty Room",
-"Mech Lab 1",
-"Student Section",
-"Boys Toilet",
-"Theater Class",
-"Girls Toilet",
-"Incharge Room",
-"Mech Lab 2",
-"Cantin",
-"Sports Room",
-"AR/VR Room",
-"CP Lab ",
-"MP Theater"
+{ postion:"Accounts",
+  id:"Accounts"},
+
+{ postion:"College Office",
+  id:"office"},
+
+{ postion:"Director Room",
+  id:"director"},
+
+{ postion:"Faculty Room",
+  id:"faculty"},
+
+{ postion:"Mech Lab 1",
+  id:"mech1"},
+
+{ postion:"Student Section",
+   id:"student"},
+
+{ postion:"Boys Toilet",
+  id:"btoilet"},
+
+{ postion:"Theater Class",
+  id:"theater"},
+
+{ postion:"Girls Toilet",
+  id:"gtoilet"},
+
+{ postion:"Incharge Room",
+  id:"incharge"},
+
+{ postion:"Mech Lab 2",
+  id:"mech2"},
+
+{ postion:"Cantin",
+  id:"cantin"},
+
+{ postion:"Sports Room",
+  id:"sports"},
+
+{ postion:"AR/VR Room",
+  id:"arvr"},
+
+{ postion:"CP Lab ",
+   id:"clab"},
+
+{ postion:"MP Theater",
+  id:"mp"}
 ];
 
 const Floor = [

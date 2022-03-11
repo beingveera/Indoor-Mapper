@@ -15,10 +15,10 @@ export default function Road(){
 const style1 = {
 	"height":"5rem",
 	"width":"100%",
-	"background-color":"rgba(0,0,0,.8)",
-	"margin-top":"6.2rem",
-	"text-align":"center",
-	"line-height":"70px",
-	"font-size":"17px",
+	"backgroundColor":"rgba(0,0,0,.8)",
+	"marginTop":"6.2rem",
+	"textAlign":"center",
+	"lineHeight":"70px",
+	"fontSize":"17px",
 	"color":"white"
 }

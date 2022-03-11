@@ -27,7 +27,9 @@ const style1 = {
 	"height":"6rem",
 	"width":"3rem",
 	"background":"linear-gradient(white,black,white,black,white,black,white,black,white,black,white,black,white,black,white,black)",
-	"border":"2px solid #000042"
+	"border":"2px solid #000042",
+	"position":'relative',
+	"right":"-340px"
 }
 
 

@@ -3,7 +3,7 @@ import react from 'react';
 export default function StudentS(){
 	return(
 		<>
-			<div className="room" style={css} data-bs-toggle="tooltip" data-bs-placement="top" title="Student Section :- If you have any query for regarding the Students, You can contact here.">
+			<div id="stud" className="room" style={css} data-bs-toggle="tooltip" data-bs-placement="top" title="Student Section :- If you have any query for regarding the Students, You can contact here.">
 			Student Section
 			</div>
 
@@ -13,19 +13,19 @@ export default function StudentS(){
 
 
 const css = {
-	"background-color":"lightgray",
+	"backgroundColor":"lightgray",
 	"color":"black",
 	"height":"6rem",
-	"width":"12rem",
+	"width":"12.3rem",
 	"border":"2px solid #000042",
 	"flex": '1',
-	"justify-content" : "center",
-	"text-align":"center",
+	"justifyContent" : "center",
+	"textAlign":"center",
 	"display":"flex",
-	"vertical-align":"middle",
-	"line-height":"90px",
-	"font-size":"10px",
-	"font-weight":"800",
-	"box-shadow":"1px 1px 0px gray"
+	"verticalAlign":"middle",
+	"lineHeight":"90px",
+	"fontSize":"10px",
+	"fontWeight":"800",
+	"boxShadow":"1px 1px 0px gray"
 	
 	}

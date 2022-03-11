@@ -1,9 +1,10 @@
 import react from 'react';
+import '../Components/Action.js'
 
 export default function Incharge(){
 	return(
 		<>
-			<div className="room" style={css} data-bs-toggle="tooltip" data-bs-placement="top" title="Incharge Room :- All types of complain regarding the cleanness, security and stolen things are ragistred at here.">
+			<div id="inchi" className="room" style={css} data-bs-toggle="tooltip" data-bs-placement="top" title="Incharge Room :- All types of complain regarding the cleanness, security and stolen things are ragistred at here.">
 			Incharge Room
 			</div>
 
@@ -13,19 +14,19 @@ export default function Incharge(){
 
 
 const css = {
-	"background-color":"lightgray",
+	"backgroundColor":"lightgray",
 	"color":"black",
 	"height":"6rem",
 	"width":"6rem",
 	"border":"2px solid #000042",
 	"flex": '1',
-	"justify-content" : "center",
-	"text-align":"center",
+	"justifyContent" : "center",
+	"textAlign":"center",
 	"display":"flex",
-	"vertical-align":"middle",
-	"line-height":"90px",
-	"font-size":"10px",
-	"font-weight":"800",
-	"box-shadow":"1px 1px 0px gray"
+	"verticalAlign":"middle",
+	"lineHeight":"90px",
+	"fontSize":"10px",
+	"fontWeight":"800",
+	"boxShadow":"1px 1px 0px gray"
 	
 	}

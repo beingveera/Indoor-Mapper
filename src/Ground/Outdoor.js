@@ -14,12 +14,13 @@ export default function Outdoor(){
 const Styel1 = {
 	"height":"6rem",
 	"width":"19rem",
-	"background-color":"gray",
-	"border-left":"2px solid #000042",
-	"border-right":"2px solid #000042",
-	"line-height":"90px",
-	"text-align":"center"
-
+	"backgroundColor":"gray",
+	"borderLeft":"2px solid #000042",
+	"borderRight":"2px solid #000042",
+	"lineHeight":"90px",
+	"textAlign":"center",
+	"position":"absolute",
+	"right":"400px"
 
 }
 

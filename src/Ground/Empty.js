@@ -12,7 +12,7 @@ export default function Empty(){
 const space = {
 	"height":"100px",
 	"width":"20px",
-	"background-color":"white",
-	"border-top":"2px solid #000042"
+	"backgroundColor":"white",
+	"borderTop":"2px solid #000042"
 }
 

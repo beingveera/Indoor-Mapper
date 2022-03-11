@@ -3,7 +3,7 @@ import react from 'react';
 export default function WashroomG(){
 	return(
 		<>
-			<div className="room" style={area} data-bs-toggle="tooltip" data-bs-placement="top" title="Girls WashRoom 👧👧👧">
+			<div id="Girls" className="room" style={area} data-bs-toggle="tooltip" data-bs-placement="top" title="Girls WashRoom 👧👧👧">
 			<p style={title}>Girls Wash Room</p>
 
 			</div>

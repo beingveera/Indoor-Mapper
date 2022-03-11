@@ -21,7 +21,7 @@ function Border1(){
 const space = {
 	"height":"100px",
 	"width":"100px",
-	"background-color":"white",
+	"backgroundColor":"white",
 	"border":"2px solid #000042"
 }
 
@@ -29,7 +29,7 @@ const space = {
 const space1 = {
 	"height":"100px",
 	"width":"400px",
-	"background-color":"white",
+	"backgroundColor":"white",
 	"border":"2px solid #000042"
 }
 

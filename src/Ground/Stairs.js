@@ -29,7 +29,7 @@ const style1 = {
 	"background":"linear-gradient(white,black,white,black,white,black,white,black,white,black,white,black,white,black,white,black)",
 	"border":"2px solid #000042",
 	"position":'relative',
-	"right":"-340px"
+	"right":"-322px"
 }
 
 

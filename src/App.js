@@ -8,40 +8,48 @@ import Table from './Components/Table.js';
 import Map from './Components/Map.js';
 import Mapper from './Components/Mapper.js';
 
-
-
+import BarLoader from "react-spinners/HashLoader";
+import React, { useState, useEffect } from 'react';
 
 export default function App(){
 
-// <div className="upper">
-//       <Header />
-//     </div>
+  // Loading state 
+  const [isLoading, setIsLoading] = useState(true);
+  
+    useEffect(()=>{
 
-//     <div className="middle">
-//       <div> 
-//       <Sidebar />
+    setTimeout(() => {
+    setIsLoading(false);
+    }, 4000);  
+    })
+    
 
-//       </div>
-      
-//       <div className="map">
-//         <Main />
-//       </div>
-//     </div>
+  const override = {
+  "position": "absolute",
+  "top": "40%",
+  "left": "45%"
+};
 
 
+   // <>
+   //  <BarLoader color={"#000042"} isLoading={isLoading} css={override} size={150} />
 
-  return(
+   // </>
+   //  :  
+
+   return(
     <>
-
-    <div className="upper">
-      <Header />
-   </div>
-
-   <div className="middle">
-      <Mapper />
-   </div> 
-
-    <Map />
+          <div className="upper">
+            <Header />
+          </div>
+      
+          <div className="middle">
+            <Sidebar />
+          </div> 
+           
+            <div className="map">
+              <Main />
+            </div>
     </>
     )
 }

@@ -16,7 +16,7 @@
 
 }
 
-.btn-secondary,.btn-primary,.btn-danger,.btn-info{
+.btn-secondary,.btn-primary,.btn-danger,.btn-info,.btn-warning{
 	height: 2.5rem;
 	width: 12rem;
 	margin-left:10px ;

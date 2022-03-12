@@ -23,7 +23,23 @@ document.getElementById('mp').addEventListener('click',MP);
 	function Accounts(){
 		const acc = document.getElementById('acc');
 		acc.style.backgroundColor= "rgba(0,255,0,.8)";
-		acc.style.color="#000042"
+		acc.style.color="#000042";
+		document.getElementById('Accounts').setAttribute("class","btn btn-info")
+		document.getElementById('office').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('director').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('faculty').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('mech1').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('student').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('btoilet').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('theater').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('gtoilet').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('incharge').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('mech2').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('cantin').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('sports').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('arvr').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('cplab').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('mp').setAttribute("class","btn btn-secondary disabled")
 	}
 
 	
@@ -31,12 +47,44 @@ document.getElementById('mp').addEventListener('click',MP);
 		const acc = document.getElementById('officeRoom');
 		acc.style.backgroundColor= "rgba(0,255,0,.8)";
 		acc.style.color="#000042"
+		document.getElementById('office').setAttribute("class","btn btn-info")
+		document.getElementById('Accounts').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('director').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('faculty').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('mech1').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('student').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('btoilet').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('theater').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('gtoilet').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('incharge').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('mech2').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('cantin').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('sports').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('arvr').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('cplab').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('mp').setAttribute("class","btn btn-secondary disabled")
 	}
 
 	function Director(){
 		const acc = document.getElementById('dir');
 		acc.style.backgroundColor= "rgba(0,255,0,.8)";
-		acc.style.color="#000042"
+		acc.style.color="#000042";
+		document.getElementById('director').setAttribute("class","btn btn-info")
+		document.getElementById('office').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('Accounts').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('faculty').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('mech1').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('student').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('btoilet').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('theater').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('gtoilet').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('incharge').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('mech2').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('cantin').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('sports').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('arvr').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('cplab').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('mp').setAttribute("class","btn btn-secondary disabled")
 	}
 
 	
@@ -44,6 +92,22 @@ document.getElementById('mp').addEventListener('click',MP);
 		const acc = document.getElementById('facul');
 		acc.style.backgroundColor= "rgba(0,255,0,.8)";
 		acc.style.color="#000042"
+		document.getElementById('faculty').setAttribute("class","btn btn-info")
+		document.getElementById('office').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('director').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('Accounts').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('mech1').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('student').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('btoilet').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('theater').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('gtoilet').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('incharge').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('mech2').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('cantin').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('sports').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('arvr').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('cplab').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('mp').setAttribute("class","btn btn-secondary disabled")
 	}
 
 
@@ -51,6 +115,22 @@ document.getElementById('mp').addEventListener('click',MP);
 		const acc = document.getElementById('mechn1');
 		acc.style.backgroundColor= "rgba(0,255,0,.8)";
 		acc.style.color="#000042"
+		document.getElementById('mech1').setAttribute("class","btn btn-info")
+		document.getElementById('office').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('director').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('faculty').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('Accounts').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('student').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('btoilet').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('theater').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('gtoilet').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('incharge').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('mech2').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('cantin').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('sports').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('arvr').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('cplab').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('mp').setAttribute("class","btn btn-secondary disabled")
 	}
 
 	
@@ -58,6 +138,22 @@ document.getElementById('mp').addEventListener('click',MP);
 		const acc = document.getElementById('stud');
 		acc.style.backgroundColor= "rgba(0,255,0,.8)";
 		acc.style.color="#000042"
+		document.getElementById('student').setAttribute("class","btn btn-info")
+		document.getElementById('office').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('director').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('faculty').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('mech1').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('Accounts').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('btoilet').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('theater').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('gtoilet').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('incharge').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('mech2').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('cantin').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('sports').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('arvr').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('cplab').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('mp').setAttribute("class","btn btn-secondary disabled")
 	}
 
 
@@ -65,6 +161,22 @@ document.getElementById('mp').addEventListener('click',MP);
 		const acc = document.getElementById('Boys');
 		acc.style.backgroundColor= "rgba(0,255,0,.8)";
 		acc.style.color="#000042"
+		document.getElementById('btoilet').setAttribute("class","btn btn-info")
+		document.getElementById('office').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('director').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('faculty').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('mech1').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('student').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('Accounts').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('theater').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('gtoilet').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('incharge').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('mech2').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('cantin').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('sports').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('arvr').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('cplab').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('mp').setAttribute("class","btn btn-secondary disabled")
 	}
 
 	
@@ -72,6 +184,22 @@ document.getElementById('mp').addEventListener('click',MP);
 		const acc = document.getElementById('clss');
 		acc.style.backgroundColor= "rgba(0,255,0,.8)";
 		acc.style.color="#000042"
+		document.getElementById('theater').setAttribute("class","btn btn-info")
+		document.getElementById('office').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('director').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('faculty').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('mech1').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('student').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('btoilet').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('Accounts').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('gtoilet').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('incharge').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('mech2').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('cantin').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('sports').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('arvr').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('cplab').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('mp').setAttribute("class","btn btn-secondary disabled")
 	}
 
 
@@ -79,6 +207,22 @@ document.getElementById('mp').addEventListener('click',MP);
 		const acc = document.getElementById('Girls');
 		acc.style.backgroundColor= "rgba(0,255,0,.8)";
 		acc.style.color="#000042"
+		document.getElementById('gtoilet').setAttribute("class","btn btn-info")
+		document.getElementById('office').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('director').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('faculty').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('mech1').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('student').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('btoilet').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('theater').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('Accounts').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('incharge').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('mech2').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('cantin').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('sports').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('arvr').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('cplab').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('mp').setAttribute("class","btn btn-secondary disabled")
 	}
 
 	
@@ -86,6 +230,22 @@ document.getElementById('mp').addEventListener('click',MP);
 		const acc = document.getElementById('inchi');
 		acc.style.backgroundColor= "rgba(0,255,0,.8)";
 		acc.style.color="#000042"
+		document.getElementById('incharge').setAttribute("class","btn btn-info")
+		document.getElementById('office').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('director').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('faculty').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('mech1').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('student').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('btoilet').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('theater').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('gtoilet').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('Accounts').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('mech2').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('cantin').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('sports').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('arvr').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('cplab').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('mp').setAttribute("class","btn btn-secondary disabled")
 	}
 
 
@@ -93,6 +253,22 @@ document.getElementById('mp').addEventListener('click',MP);
 		const acc = document.getElementById('mechn2');
 		acc.style.backgroundColor= "rgba(0,255,0,.8)";
 		acc.style.color="#000042"
+		document.getElementById('mech2').setAttribute("class","btn btn-info")
+		document.getElementById('office').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('director').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('faculty').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('mech1').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('student').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('btoilet').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('theater').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('gtoilet').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('incharge').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('Accounts').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('cantin').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('sports').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('arvr').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('cplab').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('mp').setAttribute("class","btn btn-secondary disabled")
 	}
 
 	
@@ -100,6 +276,22 @@ document.getElementById('mp').addEventListener('click',MP);
 		const acc = document.getElementById('cant');
 		acc.style.backgroundColor= "rgba(0,255,0,.8)";
 		acc.style.color="#000042"
+		document.getElementById('cantin').setAttribute("class","btn btn-info")
+		document.getElementById('office').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('director').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('faculty').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('mech1').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('student').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('btoilet').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('theater').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('gtoilet').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('incharge').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('mech2').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('Accounts').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('sports').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('arvr').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('cplab').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('mp').setAttribute("class","btn btn-secondary disabled")
 	}
 
 
@@ -107,6 +299,22 @@ document.getElementById('mp').addEventListener('click',MP);
 		const acc = document.getElementById('sprts');
 		acc.style.backgroundColor= "rgba(0,255,0,.8)";
 		acc.style.color="#000042"
+		document.getElementById('sports').setAttribute("class","btn btn-info")
+		document.getElementById('office').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('director').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('faculty').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('mech1').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('student').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('btoilet').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('theater').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('gtoilet').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('incharge').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('mech2').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('cantin').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('Accounts').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('arvr').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('cplab').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('mp').setAttribute("class","btn btn-secondary disabled")
 	}
 
 
@@ -114,6 +322,22 @@ document.getElementById('mp').addEventListener('click',MP);
 		const acc = document.getElementById('Av');
 		acc.style.backgroundColor= "rgba(0,255,0,.8)";
 		acc.style.color="#000042"
+		document.getElementById('arvr').setAttribute("class","btn btn-info")
+		document.getElementById('office').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('director').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('faculty').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('mech1').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('student').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('btoilet').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('theater').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('gtoilet').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('incharge').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('mech2').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('cantin').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('sports').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('Accounts').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('cplab').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('mp').setAttribute("class","btn btn-secondary disabled")
 	}
 
 	
@@ -121,6 +345,22 @@ document.getElementById('mp').addEventListener('click',MP);
 		const acc = document.getElementById('clab');
 		acc.style.backgroundColor= "rgba(0,255,0,.8)";
 		acc.style.color="#000042"
+		document.getElementById('cplab').setAttribute("class","btn btn-info")
+		document.getElementById('office').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('director').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('faculty').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('mech1').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('student').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('btoilet').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('theater').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('gtoilet').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('incharge').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('mech2').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('cantin').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('sports').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('arvr').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('Accounts').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('mp').setAttribute("class","btn btn-secondary disabled")
 	}
 	
 
@@ -128,6 +368,22 @@ document.getElementById('mp').addEventListener('click',MP);
 		const acc = document.getElementById('Mp');
 		acc.style.backgroundColor= "rgba(0,255,0,.8)";
 		acc.style.color="#000042"
+		document.getElementById('mp').setAttribute("class","btn btn-info")
+		document.getElementById('office').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('director').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('faculty').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('mech1').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('student').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('btoilet').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('theater').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('gtoilet').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('incharge').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('mech2').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('cantin').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('sports').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('arvr').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('cplab').setAttribute("class","btn btn-secondary disabled")
+		document.getElementById('Accounts').setAttribute("class","btn btn-secondary disabled")
 	}
 	
 

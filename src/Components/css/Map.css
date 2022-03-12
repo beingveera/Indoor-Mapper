@@ -11,5 +11,10 @@
 	left: 249px;
 	top: 60px;
 	border: 1px solid black;
+	z-index: -1;
+}
 
+.maps{
+	display: block;
+	height: auto;
 }

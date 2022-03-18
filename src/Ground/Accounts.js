@@ -1,4 +1,4 @@
-import react from 'react';
+import React from 'react';
 import '../Components/Action.js';
 import '../Components/Reaction.js';
 
@@ -29,5 +29,5 @@ const css = {
 	"fontSize":"10px",
 	"fontWeight":"800",
 	"Postion":"absolute",
-	"right":"100px",
+	"right":"-120px",
 	}

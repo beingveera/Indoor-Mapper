@@ -1,4 +1,4 @@
-import react from 'react';
+import React from 'react';
 import Accounts from './Accounts.js';
 
 import Cantin from './Cantin.js';

@@ -1,4 +1,4 @@
-import react from 'react';
+import React from 'react';
 import Glab from './Ground_lab.js'
 import Accounts from './Accounts.js'
 import Outdoor from './Outdoor.js';

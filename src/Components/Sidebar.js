@@ -1,5 +1,8 @@
-import react,{useState} from 'react';
+import React,{useState} from 'react';
 import './Action.js';
+
+import image from './img/map.png';
+import map from './img/final.png';
 
 import Accounts from '../Ground/Accounts.js'
 
@@ -15,6 +18,21 @@ export default function Sidebar(){
 		
 	return(
 		<>
+
+		<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+		  <div class="modal-dialog modal-xl">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <h5 class="modal-title" id="staticBackdropLabel">Map Navigation</h5>
+		        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+		      </div>
+		      <div class="modal-body">
+		        <img src={map} style={ima}/>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+
 		<div className="outer">
 		 	
 			<button type="button" className="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Start">
@@ -33,6 +51,10 @@ export default function Sidebar(){
 			<div className=" my-3 container">
 				<div className="end"><p className="tag">Start Point</p></div>
 				<div className="start"><p className="tag">End Point</p></div>
+			</div>
+
+			<div>
+				<img src={image} height = "150px" width="230px"/>
 			</div>
 
 
@@ -85,7 +107,7 @@ export default function Sidebar(){
 			        <button type="button" style={{"margin-left":"25px"}} className="btn btn-danger" id="dirs">Director Room</button>
 			        <button type="button" style={{"margin-left":"25px"}} className="btn btn-danger" id="fac">Faculty Room</button>
 			        <button type="button" style={{"margin-left":"25px"}} className="btn btn-danger" id="mec">Mech Lab 1</button>
-			        <button type="button" style={{"margin-left":"25px"}} className="btn btn-danger" id="stu">Student Section</button>
+			        <button type="button" style={{"margin-left":"25px"}} className="btn btn-danger" data-bs-toggle="modal" data-bs-target="#staticBackdrop" id="stu">Student Section</button>
 			        <button type="button" style={{"margin-left":"25px"}} className="btn btn-danger" id="bto">Boys Toilet</button>
 			        <button type="button" style={{"margin-left":"25px"}} className="btn btn-danger" id="the">Theater Class</button>
 			        <button type="button" style={{"margin-left":"25px"}} className="btn btn-danger" id="gto">Girls Toilet</button>
@@ -109,4 +131,11 @@ export default function Sidebar(){
 
 		</>
 		)
+}
+
+
+const ima = {
+	"height":"500px",
+	"width":"1100px"
+
 }

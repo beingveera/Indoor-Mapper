@@ -1,3 +1,9 @@
+
+
+
+
+
+
 window.addEventListener('load',Main);
 
 function Main(){
@@ -18,6 +24,9 @@ document.getElementById('sports').addEventListener('click',Sports);
 document.getElementById('arvr').addEventListener('click',Arvr);
 document.getElementById('cplab').addEventListener('click',Cplab);
 document.getElementById('mp').addEventListener('click',MP);
+
+
+// document.getElementsByClassName("nav-link")[0].addEventListener("click",Hide);
 
 	
 	function Accounts(){

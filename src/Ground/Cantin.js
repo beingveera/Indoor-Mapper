@@ -1,4 +1,4 @@
-import react from 'react';
+import React from 'react';
 import '../Components/Reaction.js';
 
 export default function Cantin(){

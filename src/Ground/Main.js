@@ -1,4 +1,4 @@
-import react from 'react';
+import React from 'react';
 
 
 import Floor_0 from './Floor_0.js'

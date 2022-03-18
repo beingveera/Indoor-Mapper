@@ -1,4 +1,4 @@
-import react from 'react';
+import React from 'react';
 
 import Sports from './Sports.js';
 import Garden from './Garden.js'

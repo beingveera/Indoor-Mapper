@@ -1,7 +1,11 @@
-import react from 'react';
+import React from 'react';
+import Mapper from './Mapper.js';
 
 export default function App() {
 	return(
-		<h1>About page</h1>
+		<>
+		<Mapper />
+		<h1>Lokesj</h1>
+		</>
 		)
 }

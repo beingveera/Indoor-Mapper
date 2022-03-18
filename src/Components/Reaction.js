@@ -129,7 +129,7 @@ document.getElementById('mpt').addEventListener('click',MP);
 		document.getElementById('can').setAttribute("class","btn btn-secondary disabled")
 		document.getElementById('spo').setAttribute("class","btn btn-secondary disabled")
 		document.getElementById('arv').setAttribute("class","btn btn-secondary disabled")
-		document.getElementById('cpl').setAttribute("class","btn btn-secondary disabled")
+        document.getElementById('cpl').setAttribute("class","btn btn-secondary disabled")
 		document.getElementById('mpt').setAttribute("class","btn btn-secondary disabled")
 	}
 
@@ -154,6 +154,7 @@ document.getElementById('mpt').addEventListener('click',MP);
 		document.getElementById('arv').setAttribute("class","btn btn-secondary disabled")
 		document.getElementById('cpl').setAttribute("class","btn btn-secondary disabled")
 		document.getElementById('mpt').setAttribute("class","btn btn-secondary disabled")
+
 	}
 
 

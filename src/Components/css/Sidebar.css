@@ -1,7 +1,7 @@
 .outer{
 	height: 600px;
 	width: 250px;
-	background-color: lightgray;
+	background-color: indigo;
 	padding: 12px;
 	box-shadow: 1px 1px 0px lightgray;	
 }

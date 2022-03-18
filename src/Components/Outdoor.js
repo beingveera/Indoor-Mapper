@@ -1,4 +1,4 @@
-import react from 'react';
+import React from 'react';
 import Maps from './Map.js';
 import Mapper from './Mapper.js'
 

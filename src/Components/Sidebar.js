@@ -3,6 +3,8 @@ import './Action.js';
 
 import image from './img/map.png';
 import map from './img/final.png';
+import location from './img/location2.png';
+
 
 import Accounts from '../Ground/Accounts.js'
 
@@ -33,6 +35,21 @@ export default function Sidebar(){
 		  </div>
 		</div>
 
+		<div class="modal fade" id="cantinD" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="cantinDLabel" aria-hidden="true">
+		  <div class="modal-dialog modal-xl">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <h5 class="modal-title" id="cantinDLabel">Map Navigation</h5>
+		        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+		      </div>
+		      <div class="modal-body">
+		        <img src={location} style={ima}/>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+
+
 		<div className="outer">
 		 	
 			<button type="button" className="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Start">
@@ -56,6 +73,19 @@ export default function Sidebar(){
 			<div>
 				<img src={image} height = "150px" width="230px"/>
 			</div>
+
+			 <a type="button" className="btn btn-warning" href="https://mega.nz/file/p6YVkCyL#QB6qexBAPQ5ebiRex_NWDgOHtN58FeS724DLXc57kDE">
+			  Download Resport
+			</a>
+
+			 <a type="button" className="btn btn-success" href="https://mega.nz/file/V7BwgRyC#GF0VGXT1RF-8yWQZ3nnf_fRSMu3lNPSoQJGzZVwdrbc">
+			  Download PPT
+			</a>
+
+			<a type="button" className="btn btn-info" herf="https://mega.nz/file/ImJXhTzQ#hft0w2VC813WbTV1tf5JylVPulhlUz-B3PhQ21XTpd0">
+				Download Paper
+			</a>
+
 
 
 			<div className="modal fade"  id="Start" tabindex="-1" aria-labelledby="StartLabel" aria-hidden="true">
@@ -113,7 +143,7 @@ export default function Sidebar(){
 			        <button type="button" style={{"margin-left":"25px"}} className="btn btn-danger" id="gto">Girls Toilet</button>
 			        <button type="button" style={{"margin-left":"25px"}} className="btn btn-danger" id="inc">Incharge Room</button>
 			        <button type="button" style={{"margin-left":"25px"}} className="btn btn-danger" id="mec1">Mech Lab 2</button>
-			        <button type="button" style={{"margin-left":"25px"}} className="btn btn-danger" id="can">Cantin</button>
+			        <button type="button" style={{"margin-left":"25px"}} className="btn btn-danger" data-bs-toggle="modal" data-bs-target="#cantinD" id="can">Cantin</button>
 			        <button type="button" style={{"margin-left":"25px"}} className="btn btn-danger" id="spo">Sports Room</button>
 			        <button type="button" style={{"margin-left":"25px"}} className="btn btn-danger" id="arv">AR/VR Room</button>
 			        <button type="button" style={{"margin-left":"25px"}} className="btn btn-danger" id="cpl">CP Lab </button>
